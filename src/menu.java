@@ -35,7 +35,7 @@ public class menu {
             String Camuflaje=scanner.next();
             leon.setCamuflaje(Camuflaje);
 
-
+            //Imprimir León
             System.out.println("el leon ");
             leon.imprimirLeon();
 
