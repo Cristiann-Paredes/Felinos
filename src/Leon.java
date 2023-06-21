@@ -31,11 +31,16 @@ public class Leon extends felinos {
 
         public void imprimirLeon(){
             System.out.print("El leon mide "+ gettamanio());
-            System.out.print("Tiene una edad de "+ getEdad());
-            System.out.print("El leon tiene las patas "+ getGarras());
-            System.out.print("El leon tiene pelaje "+ getPelaje());
-            System.out.print("El leon tiene una manada de  "+ getManada()+ " integrantes");
-            System.out.print("El leon se camufla en "+ getCamuflaje());
+            System.out.print("\nTiene una edad de "+ getEdad());
+            System.out.print("\nEl leon tiene las patas "+ getGarras());
+            System.out.print("\nEl leon tiene pelaje "+ getPelaje());
+            System.out.print("\nEl leon tiene una manada de  "+ getManada()+ " integrantes");
+            System.out.print("\nEl leon se camufla en "+ getCamuflaje());
+            System.out.print("\nPuede realizar las acciones: \n" ) ;
+            rugir();
+            asechar();
+            proteger();
+
         }
 
 
