@@ -35,12 +35,12 @@ public class menu {
             String Camuflaje=scanner.next();
             leon.setCamuflaje(Camuflaje);
 
-            System.out.println("El leon mide "+ leon.gettamanio());
-            System.out.println("Tiene una edad de "+ leon.getEdad());
-            System.out.println("El leon tiene las patas "+ leon.getGarras());
-            System.out.println("El leon tiene pelaje "+ leon.getPelaje());
-            System.out.println("El leon tiene una manada de  "+ leon.getManada()+ " integrantes");
-            System.out.println("El leon se camufla en "+ leon.getCamuflaje());
+
+            System.out.println("el leon ");
+            leon.imprimirLeon();
+
+
+
 
 
 

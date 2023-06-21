@@ -29,6 +29,14 @@ public class Leon extends felinos {
         System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
 
 
+        public void imprimirLeon(){
+            System.out.print("El leon mide "+ gettamanio());
+            System.out.print("Tiene una edad de "+ getEdad());
+            System.out.print("El leon tiene las patas "+ getGarras());
+            System.out.print("El leon tiene pelaje "+ getPelaje());
+            System.out.print("El leon tiene una manada de  "+ getManada()+ " integrantes");
+            System.out.print("El leon se camufla en "+ getCamuflaje());
+        }
 
 
 
