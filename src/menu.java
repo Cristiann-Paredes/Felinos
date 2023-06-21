@@ -19,8 +19,28 @@ public class menu {
             leon.setEdad(Edad);
 
             System.out.println("Ingrese la forma de las patas (redondas, largas, deformes: )");
-            String Garras=scanner.nextLine();
+            String Garras= scanner.next();
             leon.setGarras(Garras);
+
+            System.out.println("Ingrese el pelaje del león )");
+            String Pelaje=scanner.next();
+            leon.setPelaje(Pelaje);
+
+            System.out.println("Ingrese el numero leones en la manada: ");
+            int Manada =scanner.nextInt();
+            leon.setManada(Manada);
+
+            System.out.println("Ingrese el lugar como dode el leon se camufra(selva,sabana,paramo ): )");
+            String Camuflaje=scanner.next();
+            leon.setCamuflaje(Camuflaje);
+
+            System.out.println("El leon mide "+ leon.gettamanio());
+            System.out.println("El leon tiene una edad de "+ leon.getEdad());
+            System.out.println("El leon tiene las patas "+ leon.getGarras());
+            System.out.println("El leon tiene pelaje "+ leon.getPelaje());
+            System.out.println("El leon tiene una manada de  "+ leon.gettamanio()+ "integrantes");
+            System.out.println("El leon se camufla en "+ leon.gettamanio());
+
 
 
 
