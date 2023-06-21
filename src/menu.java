@@ -38,8 +38,8 @@ public class menu {
             System.out.println("El leon tiene una edad de "+ leon.getEdad());
             System.out.println("El leon tiene las patas "+ leon.getGarras());
             System.out.println("El leon tiene pelaje "+ leon.getPelaje());
-            System.out.println("El leon tiene una manada de  "+ leon.gettamanio()+ "integrantes");
-            System.out.println("El leon se camufla en "+ leon.gettamanio());
+            System.out.println("El leon tiene una manada de  "+ leon.getManada()+ "integrantes");
+            System.out.println("El leon se camufla en "+ leon.getCamuflaje());
 
 
 
