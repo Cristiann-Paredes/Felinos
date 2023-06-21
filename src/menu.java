@@ -7,6 +7,7 @@ public class menu {
             ArrayList<felinos>integrantes=new ArrayList<>();
 
             Scanner scanner = new Scanner(System.in);
+            //esto es solo para ver los atributos que tiene el león
             Leon leon= new Leon(3,45,"redondas","Frondoso",5,"En selvas ");
             integrantes.add(leon);
 
