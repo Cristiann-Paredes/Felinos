@@ -3,12 +3,12 @@ public class Puma extends felinos{
     private String audicion;
     private String apariencia;
 
-    public Puma(String tamaño, String edad, String garras, String bigotes, String color, String alimentacion, String audicion, String apariencia) {
-        super(tamaño, edad, garras, bigotes, color);
-
+    public Puma(int tamanio, int edad, String garras, String alimentacion, String audicion, String apariencia) {
+        super(tamanio, edad, garras);
         this.alimentacion = alimentacion;
         this.audicion = audicion;
-        this.apariencia = apariencia;}
+        this.apariencia = apariencia;
+    }
 
     public String getAlimentacion() {return alimentacion;}
     public void setAlimentacion(String alimentacion) {this.alimentacion = alimentacion;}

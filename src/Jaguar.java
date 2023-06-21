@@ -1,26 +1,21 @@
 public class Jaguar extends felinos {
 
-    private String longitud;
+    private int longitud;
     private String cabeza;
     private String dientes;
 
-    public Jaguar(String tamaño, String edad, String garras, String bigotes, String color, String longitud, String cabeza, String dientes) {
-        super(tamaño, edad, garras, bigotes, color);
-
+    public Jaguar(int tamanio, int edad, String garras, int longitud, String cabeza, String dientes) {
+        super(tamanio, edad, garras);
         this.longitud = longitud;
         this.cabeza = cabeza;
-        this.dientes = dientes;}
+        this.dientes = dientes;
+    }
 
-    public String getLongitud() {return longitud;}
-
-    public void setLongitud(String longitud) {this.longitud = longitud;}
-
+    public int getLongitud() {return longitud;}
+    public void setLongitud(int longitud) {this.longitud = longitud;}
     public String getCabeza() {return cabeza;}
-
     public void setCabeza(String cabeza) {this.cabeza = cabeza;}
-
     public String getDientes() {return dientes;}
-
     public void setDientes(String dientes) {this.dientes = dientes;}
 
     //metodos
