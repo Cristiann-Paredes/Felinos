@@ -40,7 +40,6 @@ public class Leon extends felinos {
             rugir();
             asechar();
             proteger();
-
         }
 
 

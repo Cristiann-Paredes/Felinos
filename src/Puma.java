@@ -19,9 +19,22 @@ public class Puma extends felinos{
 
     //metodos
     public void saltar(){
-        System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+        System.out.println("Puma se salta una altura de alrededor de 2 metros.");}
     public void observar(){
-        System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+        System.out.println("Puma observa sus presas el largas distancias.");}
     public void emboscar(){
-        System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+        System.out.println("Puma puede emboscar a unos 60km/h.");}
+
+    public void imprimirPuma(){
+
+        System.out.print("\nEl Puma tiene una alimendasion de  "+ getAlimentacion());
+        System.out.print("\nEl Puma tiene una audicion " +getAudicion());
+        System.out.print("\nEl Puma tiene un aspecto "+ getApariencia());
+        System.out.print("\nPuede realizar las acciones: \n" ) ;
+        saltar();
+        observar();
+        emboscar();
+    }
+
+
 }
