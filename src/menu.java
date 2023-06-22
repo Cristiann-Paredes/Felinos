@@ -50,7 +50,7 @@ public class menu {
             System.out.println("-----------------------------------------------------------------");
 
 
-
+            //solopara ver los atributos
             Jaguar jaguar=new Jaguar(1,3,"dos",2,"en punta","afilados");
             integrantes.add(jaguar);
 
@@ -66,6 +66,23 @@ public class menu {
             jaguar.setDientes(dientes);
             System.out.println("-----------------------------------------------------------------");
 
+            Lince lince=new Lince(1,1,"largas","larga","salva","mamifero");
+            integrantes.add(lince);
+            System.out.println("Felino 4");
+            System.out.println("Ingrese vision de un lince: ");
+            String vision=scanner.next();
+            lince.setVision(vision);
+            System.out.println("Ingrese entorno donde vive: ");
+            String territorio=scanner.next();
+            lince.setTerritorio(territorio);
+            System.out.println("Se clasifica como invertebrasdo de tipo(mamifero,anfibio,etc): ");
+            String reproduccion=scanner.next();
+            lince.setReproduccion(reproduccion);
+            System.out.println("-----------------------------------------------------------------");
+
+
+
+
 
 
 
@@ -78,6 +95,9 @@ public class menu {
             //imprimir jaguar
             System.out.println("El Jaguar ");
             jaguar.imprimirJaguar();
+            //imprimir Lince
+            System.out.println("El Lince ");
+            lince.imprimirLince();
 
 
 

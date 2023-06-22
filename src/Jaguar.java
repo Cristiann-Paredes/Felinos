@@ -35,6 +35,7 @@ public class Jaguar extends felinos {
         nadar();
         merodear();
         explorar();
+        System.out.println("-----------------------------------------------------------------");
         System.out.println("       ");
     }
 }

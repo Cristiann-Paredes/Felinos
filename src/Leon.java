@@ -40,6 +40,7 @@ public class Leon extends felinos {
             rugir();
             asechar();
             proteger();
+            System.out.println("-----------------------------------------------------------------");
             System.out.println("       ");
         }
 

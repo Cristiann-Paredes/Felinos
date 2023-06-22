@@ -34,6 +34,7 @@ public class Puma extends felinos{
         saltar();
         observar();
         emboscar();
+        System.out.println("-----------------------------------------------------------------");
         System.out.println("       ");
     }
 
