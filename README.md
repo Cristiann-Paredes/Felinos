@@ -7,4 +7,4 @@ DIAGRAMA UML
 [FUNCIONAMIENTO](https://github.com/Cristiann-Paredes/Felinos/blob/master/HERENCIAS_JimenezM_ParedesC.pdf)
 
 
-https://github.com/Cristiann-Paredes/Felinos/blob/master/HERENCIAS_JimenezM_ParedesC.pdf
+(https://github.com/Cristiann-Paredes/Felinos/blob/master/HERENCIAS_JimenezM_ParedesC.pdf)
