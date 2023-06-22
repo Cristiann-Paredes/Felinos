@@ -109,6 +109,7 @@ public class menu {
             //imprimir Gato
             System.out.println("El Gato ");
             gato.imprimirGato();
+
         }
 
 
