@@ -23,9 +23,9 @@ public class Lince extends felinos {
     public void setReproduccion(String reproduccion) {this.reproduccion = reproduccion;}
 
     public void correr(){
-        System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+        System.out.println("Los linces pueden lograr largos recorridos en cortos plazos");}
     public void acicalar(){
-        System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+        System.out.println("Los linces acostumbran a autoasearse");}
     public void imprimirLince(){
 
         System.out.print("El Lince tiene una vision   "+ getVision());

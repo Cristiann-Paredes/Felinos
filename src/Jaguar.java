@@ -1,18 +1,18 @@
 public class Jaguar extends felinos {
 
-    private int longitud;
+    private String longitud;
     private String cabeza;
     private String dientes;
 
-    public Jaguar(int tamanio, int edad, String garras, int longitud, String cabeza, String dientes) {
+    public Jaguar(int tamanio, int edad, String garras, String longitud, String cabeza, String dientes) {
         super(tamanio, edad, garras);
         this.longitud = longitud;
         this.cabeza = cabeza;
         this.dientes = dientes;
     }
 
-    public int getLongitud() {return longitud;}
-    public void setLongitud(int longitud) {this.longitud = longitud;}
+    public String getLongitud() {return longitud;}
+    public void setLongitud(String longitud) {this.longitud = longitud;}
     public String getCabeza() {return cabeza;}
     public void setCabeza(String cabeza) {this.cabeza = cabeza;}
     public String getDientes() {return dientes;}
@@ -20,11 +20,11 @@ public class Jaguar extends felinos {
 
     //metodos
     public void nadar(){
-        System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+        System.out.println("Los jaguares tienen gran habilidad de nado.");}
     public void merodear(){
-        System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+        System.out.println("Los jaguares tienen gran capacidad de moverse en sigilo.");}
     public void explorar(){
-        System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+        System.out.println("Los jaguares tienen alta capacidad en explorar zonas");}
 
     public void imprimirJaguar(){
 

@@ -12,8 +12,9 @@ public class menu {
             integrantes.add(leon);
 
             System.out.println("Felino 1");
+            System.out.println("LEON");
             System.out.println("Ingrese el tamaño del león: ");
-            int  tamanio=scanner.nextInt();
+            int tamanio=scanner.nextInt();
             leon.settamanio(tamanio);
             System.out.println("Ingrese la edad del león: ");
             int Edad =scanner.nextInt();
@@ -21,23 +22,23 @@ public class menu {
             System.out.println("Ingrese la forma de las patas (redondas, largas, deformes: )");
             String Garras= scanner.next();
             leon.setGarras(Garras);
-            System.out.println("Ingrese el pelaje del león )");
+            System.out.println("Ingrese el color de pelaje del león (beige, marron, ocre) ");
             String Pelaje=scanner.next();
             leon.setPelaje(Pelaje);
             System.out.println("Ingrese el numero leones en la manada: ");
             int Manada =scanner.nextInt();
             leon.setManada(Manada);
-            System.out.println("Ingrese el lugar como dode el leon se camufra(selva,sabana,paramo ): )");
+            System.out.println("Ingrese el lugar como dónde el leon se camufla(selva,sabana,páramo ): )");
             String Camuflaje=scanner.next();
             leon.setCamuflaje(Camuflaje);
             System.out.println("-----------------------------------------------------------------");
-
 
             //para ver los atributos
             Puma puma=new Puma(5,7,"largas","carnivoro","alta","color negro");
             integrantes.add(puma);
 
             System.out.println("Felino 2");
+            System.out.println("PUMA");
             System.out.println("Ingrese el principal alimento del puma : ");
             String Alimentacion=scanner.next();
             puma.setAlimentacion(Alimentacion);
@@ -51,14 +52,15 @@ public class menu {
 
 
             //solopara ver los atributos
-            Jaguar jaguar=new Jaguar(1,3,"dos",2,"en punta","afilados");
+            Jaguar jaguar=new Jaguar(1,3,"dos","1.8 m","en punta","afilados");
             integrantes.add(jaguar);
 
             System.out.println("Felino 3");
+            System.out.println("JAGUAR");
             System.out.println("Ingrese el largo que puede llegar a tener un Jaguar: ");
-            int Longitud =scanner.nextInt();
+            String Longitud =scanner.nextLine();
             jaguar.setLongitud(Longitud);
-            System.out.println("Ingrese la forma del craneo del puma (redonda, punteada, achatada)");
+            System.out.println("Ingrese la forma del craneo del jaguar (redonda, punteada, achatada)");
             String cabeza=scanner.next();
             jaguar.setCabeza(cabeza);
             System.out.println("Ingrese forma de la boca del jaguar (Incisivos, Caninos,premorales)");
@@ -66,16 +68,17 @@ public class menu {
             jaguar.setDientes(dientes);
             System.out.println("-----------------------------------------------------------------");
 
-            Lince lince=new Lince(1,1,"largas","larga","salva","mamifero");
+            Lince lince=new Lince(1,1,"largas","400m","zona forestal","mamifero");
             integrantes.add(lince);
-            System.out.println("Felino 4");
+            System.out.println("Felino 4:");
+            System.out.println("LINCE");
             System.out.println("Ingrese vision de un lince: ");
             String vision=scanner.next();
             lince.setVision(vision);
-            System.out.println("Ingrese entorno donde vive: ");
+            System.out.println("Ingrese habitat donde vive: ");
             String territorio=scanner.next();
             lince.setTerritorio(territorio);
-            System.out.println("Se clasifica como invertebrasdo de tipo(mamifero,anfibio,etc): ");
+            System.out.println("Se clasifica como invertebrado de tipo(mamifero,anfibio,etc): ");
             String reproduccion=scanner.next();
             lince.setReproduccion(reproduccion);
             System.out.println("-----------------------------------------------------------------");
@@ -83,13 +86,14 @@ public class menu {
             Gato gato=new Gato(1,1,"cortas","Domestico","trepar","maullar");
             integrantes.add(gato);
             System.out.println("Felino 5");
-            System.out.println("Ingrese el tipo de comportamiento: ");
+            System.out.println("GATO");
+            System.out.println("Ingrese el tipo de adaptación: ");
             String comportamiento=scanner.next();
             gato.setConportamiento(comportamiento);
-            System.out.println("Ingrese que tipo de agilidad tiene el gato: ");
+            System.out.println("Ingrese la habilidad más característica de un gato: ");
             String agilidad=scanner.next();
             gato.setAgilidad(agilidad);
-            System.out.println("Ingrese el nombre del sonido de un gato: ");
+            System.out.println("Que tipo de sonido emite un gato: ");
             String comunicacion=scanner.next();
             gato.setComunicacion(comunicacion);
             System.out.println("-----------------------------------------------------------------");

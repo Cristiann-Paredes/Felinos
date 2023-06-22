@@ -26,7 +26,7 @@ public class Leon extends felinos {
     public void asechar(){
         System.out.println("Tienen una manera muy particular y sincronizada de asechar a otros animales ");}
     public void proteger(){
-        System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+        System.out.println("Los leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
 
 
         public void imprimirLeon(){
