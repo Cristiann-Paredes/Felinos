@@ -28,4 +28,16 @@ public class Gato extends felinos {
         System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
     public void maullar(){
         System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+    public void imprimirGato(){
+
+        System.out.print("El Gato tiene un comportamiento   "+ getConportamiento());
+        System.out.print("\nEl Gato tiene la agilidad de " +getAgilidad());
+        System.out.print("\nEl Gato se comunica mediante "+ getComunicacion());
+        System.out.print("\nPuede realizar las acciones: \n" ) ;
+        Trepar();
+        jugar();
+        maullar();
+        System.out.println("-----------------------------------------------------------------");
+        System.out.println("       ");
+    }
 }

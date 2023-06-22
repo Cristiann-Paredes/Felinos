@@ -80,11 +80,19 @@ public class menu {
             lince.setReproduccion(reproduccion);
             System.out.println("-----------------------------------------------------------------");
 
-
-
-
-
-
+            Gato gato=new Gato(1,1,"cortas","Domestico","trepar","maullar");
+            integrantes.add(gato);
+            System.out.println("Felino 5");
+            System.out.println("Ingrese el tipo de comportamiento: ");
+            String comportamiento=scanner.next();
+            gato.setConportamiento(comportamiento);
+            System.out.println("Ingrese que tipo de agilidad tiene el gato: ");
+            String agilidad=scanner.next();
+            gato.setAgilidad(agilidad);
+            System.out.println("Ingrese el nombre del sonido de un gato: ");
+            String comunicacion=scanner.next();
+            gato.setComunicacion(comunicacion);
+            System.out.println("-----------------------------------------------------------------");
 
             //Imprimir León
             System.out.println("El leon ");
@@ -98,41 +106,9 @@ public class menu {
             //imprimir Lince
             System.out.println("El Lince ");
             lince.imprimirLince();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            //imprimir Gato
+            System.out.println("El Gato ");
+            gato.imprimirGato();
         }
 
 
