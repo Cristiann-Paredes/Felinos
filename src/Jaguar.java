@@ -25,4 +25,16 @@ public class Jaguar extends felinos {
         System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
     public void explorar(){
         System.out.println("Leones se protegen con su tamaño intimidante, dientes afilados y garras afiladas.");}
+
+    public void imprimirJaguar(){
+
+        System.out.print("El Jaguar tiene una longitud de  "+ getLongitud());
+        System.out.print("\nEl Jaguar tiene una cabeza de forma " +getCabeza());
+        System.out.print("\nEl Jaguar tiene sus dientes "+ getDientes());
+        System.out.print("\nPuede realizar las acciones: \n" ) ;
+        nadar();
+        merodear();
+        explorar();
+        System.out.println("       ");
+    }
 }

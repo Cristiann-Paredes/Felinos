@@ -27,13 +27,14 @@ public class Puma extends felinos{
 
     public void imprimirPuma(){
 
-        System.out.print("\nEl Puma tiene una alimendasion de  "+ getAlimentacion());
+        System.out.print("El Puma tiene una alimendasion de  "+ getAlimentacion());
         System.out.print("\nEl Puma tiene una audicion " +getAudicion());
         System.out.print("\nEl Puma tiene un aspecto "+ getApariencia());
         System.out.print("\nPuede realizar las acciones: \n" ) ;
         saltar();
         observar();
         emboscar();
+        System.out.println("       ");
     }
 
 
